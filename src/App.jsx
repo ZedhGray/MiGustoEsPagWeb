@@ -18,16 +18,14 @@ function App() {
         <Card
           productName={'Pozole Blanco'}
           productText={
-            'El pozole blanco es uno de los platillos típicos del estado de Manzanillo.'
+            'El pozole blanco es uno de los platillos típicos del estado de Colima.'
           }
           productPrice={'MX$70.00'}
           productImg={imagenes.plat2}
         />
         <Card
           productName={'Tacos Dorados 4pz'}
-          productText={
-            'Una pequeña tortilla doblada con relleno de pollo, carne o queso.'
-          }
+          productText={'Una pequeña tortilla doblada con relleno de papa.'}
           productPrice={'MX$50.00'}
           productImg={imagenes.plat6}
         />
