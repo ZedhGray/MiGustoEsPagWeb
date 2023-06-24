@@ -13,8 +13,10 @@ import indio from './indio.jpg'
 import modelo from './ultra.jpg'
 import tecate from './tecate.jpg'
 import refresco from './refrescos.jpg'
+import logo from './logo.jpg'
 
 export default {
+  logo: logo,
   plat1: guacamole,
   plat2: pozole,
   plat3: sopegordo,

@@ -1,26 +1,20 @@
-// import { useState, useEffect } from 'react'
 import './App.css'
 import Card from './components/Card'
 import imagenes from './assets/imagenes'
 import Card2 from './components/Card2'
 
-
 function App() {
   return (
     <div className="App">
       <div className="App_head">
-        <img
-          className="logoback"
-          src="./src/assets/backgroundlogo.jpg"
-          alt="logo"
-        />
+        <img className="logoback" src={imagenes.logo} alt="logo" />
         <h1 className="App_title">Mi gusto es</h1>
       </div>
       <div>
-        <h2 className='App_subtitle'>Menu</h2>
+        <h2 className="App_subtitle">Menu</h2>
       </div>
       <div>
-        <h3 className='App_subtitle2'>Platillos</h3>
+        <h3 className="App_subtitle2">Platillos</h3>
         <Card
           productName={'Pozole Blanco'}
           productText={
@@ -69,7 +63,7 @@ function App() {
         />
       </div>
       <div>
-        <h3 className='App_subtitle2'>Combos</h3>
+        <h3 className="App_subtitle2">Combos</h3>
         <Card2
           productName={'Pozole blanco chico y Agua fresca'}
           productPrice={'MX$76.00'}
@@ -91,7 +85,7 @@ function App() {
       </div>
 
       <div>
-        <h3 className='App_subtitle2'>Postres</h3>
+        <h3 className="App_subtitle2">Postres</h3>
         <Card
           productName={'Rico Arroz con leche tradicional'}
           productText={''}
@@ -106,7 +100,7 @@ function App() {
         />
       </div>
       <div>
-        <h3 className='App_subtitle2'>Bebidas</h3>
+        <h3 className="App_subtitle2">Bebidas</h3>
         <Card
           productName={'Agua Fresca de Horchata'}
           productText={''}
