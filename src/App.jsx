@@ -8,10 +8,12 @@ function App() {
     <div className="App">
       <div className="App_head">
         <img className="logoback" src={imagenes.logo} alt="logo" />
-        <h1 className="App_title">Mi gusto es</h1>
+        <h1 className="App_title Fonttitle">MI GUSTO ES</h1>
       </div>
       <div>
-        <h2 className="App_subtitle">Menu</h2>
+        <h2 className="App_subtitle">
+          <span class="material-symbols-outlined">menu</span>Menu
+        </h2>
       </div>
       <div>
         <h3 className="App_subtitle2">Platillos</h3>
