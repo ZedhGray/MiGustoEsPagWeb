@@ -58,7 +58,7 @@ function App() {
           productText={
             'Es una salsa mexicana preparada a base de aguacate y chile verde'
           }
-          productPrice={'MX$35.00'}
+          productPrice={'MX$50.00'}
           productImg={imagenes.plat1}
         />
       </div>
